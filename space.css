@@ -160,6 +160,175 @@ tr ,th
 th:hover
 {
     text-decoration: underline;
+    cursor: pointer;
+}
+.nav-ul
+{
+    list-style-type: none;
+    padding-left: 50px;
+}*{
+    margin:0;
+    padding: 0;
+    
+}
+body{
+    background-color: black;
+    color:white;
+}
+.header{
+    width:100%;
+    height:100vh;
+    background-image: url(space1.png) ;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+   
+}
+
+.navbar
+{
+    width: 100%;
+    height: 100px;
+   
+    
+}
+.logo
+{
+    width: 10%;
+    float: left;   
+}
+.logo img
+{
+    height: 80px;
+}
+.navbar-left
+{
+    width: 70%;
+    float: left;
+    padding-top: 30px;
+}
+.navbar-right
+{
+    padding-top: 30px;
+    width: 20%;
+    float: right;
+}
+
+.navbar li
+{
+    text-align: center;
+    display: inline-block;
+    padding: 0 15px;
+    
+}
+.navbar-left a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.navbar-right a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+ .header .header-text1{
+    color: white;
+    text-decoration: none;
+}
+.header-text1
+{
+    padding-top: 150px;
+    padding-left: 50px;
+    color: white;
+    
+}
+.button3{
+    height:50px;
+    width:140px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    margin-top: 20px;
+}
+.header2{
+    width:100%;
+    height:100vh;
+    background-image: url("image3.webp");
+    background-size: cover;
+    background-position:center ;
+    padding-left: 50px;
+
+}
+.header2 h1{
+    padding-top: 400px;
+    margin-bottom:20px ;
+}
+.button4{
+    height:50px;
+    width:140px;
+    background-color: transparent;
+    border-color: white;
+    color:white ;
+    margin-bottom: 520px;
+}
+.header3{
+    width:100%;
+    height:100vh;
+    background-image: url("image.4.webp");
+    background-size: cover;
+    background-position: center;
+    padding-left: 50px;
+}
+.header3 h1{
+    padding-top: 400px;
+    margin-bottom: 20px;
+}
+.button5{
+    height:50px;
+    width:140px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+.footer{
+    width:10px;
+    height:5px;
+    padding: 30px;
+}
+.footer .row1{
+    display:flex;
+    text-align: center;
+    padding:50px;
+    float:left;
+    margin-left: 200px;
+}
+.row1 .space{
+    color: rgb(177, 175, 175);
+    padding-top: 20px ;
+
+}
+.row1 a{
+    text-decoration: none;
+    color: white;
+    padding:20px;
+}
+.row1 a:hover{
+    text-decoration: underline;
+
+}
+tr ,th
+{
+    padding-left: 30px;
+    font-weight: 900;
+}
+th:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
 }
 .nav-ul
 {
